@@ -42,9 +42,9 @@ is then accomplished via the Open AI API.
 LLMs in a separate process. You will see that `sglang`
 can be quite a bite faster than `vllm`.
 
-[31-sglang-gemma-4-12b.ipynb: gemma-4-12B runs in `sglang`](31-sglang-gemma-4-12b.ipynb)
-[32-sglang-gemma-4-12B-it-qat-w4a16-ct.ipynb: quantization speeds things up in `sglang` much faster](32-sglang-gemma-4-12B-it-qat-w4a16-ct.ipynb)
-[33-sglang-gemma-4-12B-it-qat-w4a16-ct-mtp.ipynb: multi-token prediction adds even more speed](33-sglang-gemma-4-12B-it-qat-w4a16-ct-mtp.ipynb)
+* [31-sglang-gemma-4-12b.ipynb: gemma-4-12B runs in `sglang`](31-sglang-gemma-4-12b.ipynb)
+* [32-sglang-gemma-4-12B-it-qat-w4a16-ct.ipynb: quantization speeds things up in `sglang` much faster](32-sglang-gemma-4-12B-it-qat-w4a16-ct.ipynb)
+* [33-sglang-gemma-4-12B-it-qat-w4a16-ct-mtp.ipynb: multi-token prediction adds even more speed](33-sglang-gemma-4-12B-it-qat-w4a16-ct-mtp.ipynb)
 
 
 ### tabbyAPI
@@ -54,8 +54,8 @@ offers to run models in the very efficient `exl3`
 quantization. Take a look at the speeds and the
 efficient memory usage!
 
-[41-tabbyapi-gemma-4-12B-it-exl3.ipynb: gemma-4-12B in exl3 4-bit quantization](41-tabbyapi-gemma-4-12B-it-exl3.ipynb)
-[42-qwen3.6-27B-exl3.ipynb: a much larger qwen3.6-27B in exl3 4-bit quantization](42-qwen3.6-27B-exl3.ipynb)
+* [41-tabbyapi-gemma-4-12B-it-exl3.ipynb: gemma-4-12B in exl3 4-bit quantization](41-tabbyapi-gemma-4-12B-it-exl3.ipynb)
+* [42-qwen3.6-27B-exl3.ipynb: a much larger qwen3.6-27B in exl3 4-bit quantization](42-qwen3.6-27B-exl3.ipynb)
 
 
 ### llama.cpp
@@ -65,9 +65,9 @@ enviroment for LLMs. However, it has gained very broad
 hardware support and is the *speed king* for single
 users.
 
-[51-llama.cpp-gemma-4-12B-it-q4.ipynb: gemma-4-12b in 4-bit quantization with MTP](51-llama.cpp-gemma-4-12B-it-q4.ipynb)
-[52-llama.cpp-qwen3.6-27B-q4.ipynb: same for qwen3.6-27B](52-llama.cpp-qwen3.6-27B-q4.ipynb)
-[53-llama.cpp-qwen3.6-35B-A3B-q4.ipynb: even more speed with MoE qwen3.6-35B-A3B](53-llama.cpp-qwen3.6-35B-A3B-q4.ipynb)
+* [51-llama.cpp-gemma-4-12B-it-q4.ipynb: gemma-4-12b in 4-bit quantization with MTP](51-llama.cpp-gemma-4-12B-it-q4.ipynb)
+* [52-llama.cpp-qwen3.6-27B-q4.ipynb: same for qwen3.6-27B](52-llama.cpp-qwen3.6-27B-q4.ipynb)
+* [53-llama.cpp-qwen3.6-35B-A3B-q4.ipynb: even more speed with MoE qwen3.6-35B-A3B](53-llama.cpp-qwen3.6-35B-A3B-q4.ipynb)
 
 
 ## Running LLMs on the CPU
