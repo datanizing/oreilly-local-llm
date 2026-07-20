@@ -32,8 +32,8 @@ A better choice is often to use `vllm` as an execution
 engine and put this into a separate process. The access
 is then accomplished via the Open AI API.
 
-[21-vllm-gemma-4-12b.ipynb: gemma-4-12B runs in `vllm`](21-vllm-gemma-4-12b.ipynb)
-[22-vllm-gemma-4-12b-qat-w4a16-ct.ipynb: a quantized version of gemma-4-12B runs in `vllm`](22-vllm-gemma-4-12b-qat-w4a16-ct.ipynb)
+* [21-vllm-gemma-4-12b.ipynb: gemma-4-12B runs in `vllm`](21-vllm-gemma-4-12b.ipynb)
+* [22-vllm-gemma-4-12b-qat-w4a16-ct.ipynb: a quantized version of gemma-4-12B runs in `vllm`](22-vllm-gemma-4-12b-qat-w4a16-ct.ipynb)
 
 
 ### SGlang
