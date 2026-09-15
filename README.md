@@ -55,7 +55,7 @@ quantization. Take a look at the speeds and the
 efficient memory usage!
 
 * [41-tabbyapi-gemma-4-12B-it-exl3.ipynb: gemma-4-12B in exl3 4-bit quantization](41-tabbyapi-gemma-4-12B-it-exl3.ipynb)
-* [42-qwen3.6-27B-exl3.ipynb: a much larger qwen3.6-27B in exl3 4-bit quantization](42-qwen3.6-27B-exl3.ipynb)
+* [42-qwen3.8-27B-exl3.ipynb: a much larger qwen3.8-27B in exl3 4-bit quantization](42-qwen3.8-27B-exl3.ipynb)
 
 
 ### llama.cpp
@@ -66,7 +66,7 @@ hardware support and is the *speed king* for single
 users.
 
 * [51-llama.cpp-gemma-4-12B-it-q4.ipynb: gemma-4-12b in 4-bit quantization with MTP](51-llama.cpp-gemma-4-12B-it-q4.ipynb)
-* [52-llama.cpp-qwen3.6-27B-q4.ipynb: same for qwen3.6-27B](52-llama.cpp-qwen3.6-27B-q4.ipynb)
+* [52-llama.cpp-qwen3.8-27B-q4.ipynb: same for qwen3.8-27B](52-llama.cpp-qwen3.8-27B-q4.ipynb)
 * [53-llama.cpp-qwen3.6-35B-A3B-q4.ipynb: even more speed with MoE qwen3.6-35B-A3B](53-llama.cpp-qwen3.6-35B-A3B-q4.ipynb)
 
 
